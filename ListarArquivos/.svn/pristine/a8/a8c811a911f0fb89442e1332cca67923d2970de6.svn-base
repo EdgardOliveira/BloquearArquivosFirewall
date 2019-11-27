@@ -1,0 +1,112 @@
+﻿namespace ListaArquivos
+{
+    partial class frmListarArquivos
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnListar = new System.Windows.Forms.Button();
+            this.lblQuantidade = new System.Windows.Forms.Label();
+            this.rchtxtArquivos = new System.Windows.Forms.RichTextBox();
+            this.fbdSelecionarDiretorio = new System.Windows.Forms.FolderBrowserDialog();
+            this.txtbxCaminho = new System.Windows.Forms.TextBox();
+            this.btnSaidaFirewall = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnListar
+            // 
+            this.btnListar.Location = new System.Drawing.Point(12, 10);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(78, 25);
+            this.btnListar.TabIndex = 0;
+            this.btnListar.Text = "Listar";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
+            // 
+            // lblQuantidade
+            // 
+            this.lblQuantidade.AutoSize = true;
+            this.lblQuantidade.Location = new System.Drawing.Point(12, 452);
+            this.lblQuantidade.Name = "lblQuantidade";
+            this.lblQuantidade.Size = new System.Drawing.Size(165, 17);
+            this.lblQuantidade.TabIndex = 2;
+            this.lblQuantidade.Text = "Quantidade de Arquivos:";
+            // 
+            // rchtxtArquivos
+            // 
+            this.rchtxtArquivos.Location = new System.Drawing.Point(12, 69);
+            this.rchtxtArquivos.Name = "rchtxtArquivos";
+            this.rchtxtArquivos.Size = new System.Drawing.Size(303, 380);
+            this.rchtxtArquivos.TabIndex = 3;
+            this.rchtxtArquivos.Text = "";
+            // 
+            // txtbxCaminho
+            // 
+            this.txtbxCaminho.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtbxCaminho.Enabled = false;
+            this.txtbxCaminho.Location = new System.Drawing.Point(12, 41);
+            this.txtbxCaminho.Name = "txtbxCaminho";
+            this.txtbxCaminho.Size = new System.Drawing.Size(303, 22);
+            this.txtbxCaminho.TabIndex = 4;
+            // 
+            // btnSaidaFirewall
+            // 
+            this.btnSaidaFirewall.Location = new System.Drawing.Point(102, 10);
+            this.btnSaidaFirewall.Name = "btnSaidaFirewall";
+            this.btnSaidaFirewall.Size = new System.Drawing.Size(213, 25);
+            this.btnSaidaFirewall.TabIndex = 5;
+            this.btnSaidaFirewall.Text = "Bloquear Saída no Firewall";
+            this.btnSaidaFirewall.UseVisualStyleBackColor = true;
+            this.btnSaidaFirewall.Click += new System.EventHandler(this.btnListar_Click);
+            // 
+            // frmListarArquivos
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(325, 476);
+            this.Controls.Add(this.btnSaidaFirewall);
+            this.Controls.Add(this.txtbxCaminho);
+            this.Controls.Add(this.rchtxtArquivos);
+            this.Controls.Add(this.lblQuantidade);
+            this.Controls.Add(this.btnListar);
+            this.Name = "frmListarArquivos";
+            this.Text = "Arquivos";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Label lblQuantidade;
+        private System.Windows.Forms.RichTextBox rchtxtArquivos;
+        private System.Windows.Forms.FolderBrowserDialog fbdSelecionarDiretorio;
+        private System.Windows.Forms.TextBox txtbxCaminho;
+        private System.Windows.Forms.Button btnSaidaFirewall;
+    }
+}
+
