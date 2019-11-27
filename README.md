@@ -1,4 +1,4 @@
-# BloquearArquivosFirewall
+# Bloquear Arquivos no Firewall
 
 O programa consegue:
  - Listar arquivos de uma pasta e gera um arquivo texto com os arquivos encontrados na pasta selecionada
